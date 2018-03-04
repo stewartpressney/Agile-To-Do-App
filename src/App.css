@@ -1,0 +1,61 @@
+html{
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background:
+  linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(0, 40, 105, 0.8)),
+  url('./static/img/2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+}
+
+.notesHeader {
+  display: flex;
+  flex: 1 1 5%;
+  height: 80px;
+  /*height: 2.5em;*/
+  font-size: 2em;
+  color: white;
+  font-family: 'Arvo';
+  text-align: center;
+  align-content: center;
+  padding:20px 20px 20px 20px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 10px #000;
+  display: block;
+}
+
+.notesBody {
+  padding-top: 60px;
+  font-family: Raleway;
+  display: flex;
+  flex: 1 1 90%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter {
+  display: flex;
+  flex: 1 1 5%;
+  background-color: rgba(0,0,0,0.5);
+}
